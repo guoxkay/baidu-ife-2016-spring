@@ -43,7 +43,8 @@ header~hr {
 	border: none;
 }
 .topColumn {
-	margin: 30px 0 60px 0;
+	height: 540px;
+	margin: 30px 0 40px 0;
 }
 .leftColumn {
 	float: left;
@@ -177,4 +178,112 @@ header~hr {
 .rightColumn>p:last-child>span:last-child {
 	color: #b5b5b6;
 	font-size: 12px;
+}
+.underColumn article {
+	width: 415px;
+	float: left;
+}
+.underColumn article h1 {
+	font-size: 42px;
+	font-family: "黑体";
+	font-weight: bold;
+	color: #11456b;
+	line-height: 90%;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.underColumn article h1 span {
+	font-size: 72px;
+	color: #f5e327;
+	font-style: oblique;
+}
+.underColumn article h2 {
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	margin: 16px 0 16px 0;
+}
+.underColumn article hr {
+	height: 2px;
+	border: none;
+	background-color: #11456b;
+	margin-bottom: 20px;
+}
+.underColumn article p {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+	margin: 0;
+	text-indent: 24px;
+}
+.underColumn article p span {
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "微软雅黑";
+	float: left;
+	line-height: 100%;
+	margin-right: 8px;
+}
+.underColumn article img {
+	float: right;
+	margin: 16px 0 16px 16px;
+}
+.underColumn article>p:nth-child(4) {
+	text-indent: 0;
+}
+.underColumn>div {
+	width: 459px;
+	float: right;
+}
+.underColumn>div figure {
+	margin: 0;
+	width: 458px;
+	height: 257px;
+	position: relative;
+}
+.underColumn>div figure>div:nth-child(2) {
+	width: 458px;
+	height: 61px;
+	position: absolute;
+	bottom: 0;
+	background-color: #030000;
+	opacity: 0.4;
+}
+.underColumn>div figure>div:last-child {
+	position: absolute;
+	bottom: 0;
+}
+#line1 {
+	width: 3px;
+	height: 44px;
+	background-color: #72b16a;
+	line-height: 61px;
+    margin: 8px 0 0 40px; 
+	display: inline-block;
+}
+.underColumn>div figure>div>span:nth-child(2) {
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 26px;
+	position: relative;
+	bottom: 13px;
+	left: 10px;
+}
+.underColumn>div figure>div>span:last-child {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #72b16a;
+	font-style: oblique;
+	position: relative;
+	bottom: 13px;
+	left: 20px;
+	letter-spacing: 1px;
+}
+.underColumn>div section {
+	width: 459px;
+	height: 318px;
+	background-color: #eeedd6;
+	margin-top: 40px;
 }
