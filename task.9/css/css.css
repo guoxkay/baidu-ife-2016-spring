@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #228ac0;
+}
+.icon {
+	margin: 12px 0 0 40px;
+}
+header form {
+	float: right;
+}
+header div {
+	font-size: 16px;
+	color: #fff;
+	font-family: "黑体";
+	float: right;
+}
