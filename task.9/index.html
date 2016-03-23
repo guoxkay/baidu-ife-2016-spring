@@ -8,166 +8,167 @@
 <body>
 	<header>
 		<img class="icon" src="image/icon.png">
-		<form>
-			<input type="text" class="search">
-				<img src="image/person.png">
-			</input>
-		</form>
 		<div>
 			<img src="image/login.png">
 			<a href="">登录</a>
 		</div>
+		<form>
+			<input type="text" class="search">
+			<img src="image/person.png">
+		</form>
 	</header>
-	<div class="leftColumn">
-		<div class="user">
-			<p><img src="">ABC123</p>
-			<p>
-				<span>110收藏</span>
-				<hr/>
-				<span>313粉丝</span>
-			</p>
-		</div>
-		<div class="menu">
-			<div>
-				<span></span><a href="#">个人报表</a>
-				<ol>
-					<li><span></span><a href="#">文件一</a></li>
-					<li><span></span><a href="#">文件二</a>
-						<ol>
-							<li><span></span><a href="#">文档一</a></li>
-							<li><span></span><a href="#">文档二</a></li>
-						</ol>
-					</li>
-					<li><span></span><a href="#">文件三</a></li>
-				</ol>
-			</div>
-			<div>
-				<span></span><a href="#">个人收藏</a>
-			</div>
-			<div>
-				<span></span><a href="#">我的分享</a>
-			</div>
-			<div>
-				<span></span><a href="#">图库</a>
-			</div>
-			<div>
-				<span></span><a href="#">成长记录</a>
-			</div>
-			<div>
-				<span></span><a href="#">账户信息</a>
-			</div>
-		</div>
-	</div>
 	<div class="main">
-		<div class="document1">
-			<div class="header">C站/个人报表/文件一/文档一</div>
-			<div class="query">
-				<form>
-					<span>查询项</span>
-					<select>
-						<option value="第一项">第一项</option>
-					</select>
-					<span>买方</span>
-					<select name="buyer">
-						<option value="小A">小A</option>
-					</select>
-					<span>卖方</span>
-					<select name="solder">
-						<option value="小C">小C</option>
-					</select>
-					<img class="exchange" src="">
-					<span>日期</span>
-					<input name="date" type="text"></input>
-					<span>总耗时</span>
-					<select name="time">
-						<option value="八天">八天</option>
-					</select>
-					<span>人数</span>
-					<select name="peopleNumber">
-						<option value="10人">10人</option>
-					</select>
-					<span>成交项</span>
-					<select name="TransactionItem">
-						<option value="10项">10项</option>
-					</select>
-					<input type="button" value="搜索"></input>
-				</form>
+		<div class="leftColumn">
+			<div class="user">
+				<p><img src="image/head.png">ABC123</p>
+				<p>
+					<span>110收藏</span>
+					<hr/>
+					<span>313粉丝</span>
+				</p>
 			</div>
-			<div>
+			<div class="menu">
 				<div>
-					<div><</div>
-					<div>
-						10:00 am<br/>
-						¥1200
-					</div>
-					<div>
-						11:00 am<br/>
-						¥1300
-					</div>
-					<div>
-						12:00 am<br/>
-						¥1200
-					</div>
-					<div>
-						01:00 pm<br/>
-						¥1400
-					</div>
-					<div>
-						02:00 pm<br/>
-						¥1500
-					</div>
-					<div>
-						03:00 pm<br/>
-						¥1800
-					</div>
+					<span></span><a href="#" class="open">个人报表</a>
+					<ol>
+						<li><span></span><a href="#" class="close">文件一</a></li>
+						<li><span></span><a href="#" class="open">文件二</a>
+							<ol>
+								<li><span></span><a href="#" class="open">文档一</a></li>
+								<li><span></span><a href="#" class="close">文档一</a></li>
+							</ol>
+						</li>
+						<li><span></span><a href="#" class="close">文件三</a></li>
+					</ol>
 				</div>
 				<div>
-					<img src="">
-					历史查询
+					<span></span><a href="#" class="close">个人收藏</a>
+				</div>
+				<div>
+					<span></span><a href="#" class="close">我的分享</a>
+				</div>
+				<div>
+					<span></span><a href="#" class="close">图库</a>
+				</div>
+				<div>
+					<span></span><a href="#" class="close">成长记录</a>
+				</div>
+				<div>
+					<span></span><a href="#" class="close">账户信息</a>
 				</div>
 			</div>
-			<div class="April">
-				<div class="volume">
+		</div>
+		<div class="rightColumn">
+			<div class="document1">
+				<div class="header">C站/个人报表/文件一/文档一</div>
+				<div class="query">
+					<form>
+						<span>查询项</span>
+						<select>
+							<option value="第一项">第一项</option>
+						</select>
+						<span>买方</span>
+						<select name="buyer">
+							<option value="小A">小A</option>
+						</select>
+						<span>卖方</span>
+						<select name="solder">
+							<option value="小C">小C</option>
+						</select>
+						<img class="exchange" src="">
+						<span>日期</span>
+						<input name="date" type="text"></input>
+						<span>总耗时</span>
+						<select name="time">
+							<option value="八天">八天</option>
+						</select>
+						<span>人数</span>
+						<select name="peopleNumber">
+							<option value="10人">10人</option>
+						</select>
+						<span>成交项</span>
+						<select name="TransactionItem">
+							<option value="10项">10项</option>
+						</select>
+						<input type="button" value="搜索"></input>
+					</form>
+				</div>
+				<div>
 					<div>
+						<div><</div>
 						<div>
-							133311<br/>
-							成交量
+							10:00 am<br/>
+							¥1200
+						</div>
+						<div>
+							11:00 am<br/>
+							¥1300
+						</div>
+						<div>
+							12:00 am<br/>
+							¥1200
+						</div>
+						<div>
+							01:00 pm<br/>
+							¥1400
+						</div>
+						<div>
+							02:00 pm<br/>
+							¥1500
+						</div>
+						<div>
+							03:00 pm<br/>
+							¥1800
+						</div>
+					</div>
+					<div>
+						<img src="">
+						历史查询
+					</div>
+				</div>
+				<div class="April">
+					<div class="volume">
+						<div>
+							<div>
+								133311<br/>
+								成交量
+								<div></div>
+							</div>
+						</div>
+						<div>
+							<div>
+								133311<br/>
+								成交量
+							</div>
+							<div></div>
+						</div>
+						<div>
+							<div>
+								133311<br/>
+								成交量
+							</div>
+							<div></div>
+						</div>
+						<div>
+							<div>
+								133311<br/>
+								成交量
+							</div>
 							<div></div>
 						</div>
 					</div>
-					<div>
+					<div class="firstProject">
 						<div>
-							133311<br/>
-							成交量
+							
 						</div>
-						<div></div>
-					</div>
-					<div>
 						<div>
-							133311<br/>
-							成交量
+							
 						</div>
-						<div></div>
 					</div>
 					<div>
-						<div>
-							133311<br/>
-							成交量
-						</div>
-						<div></div>
+						<div class="daily"></div>
+						<div class="carList"></div>
 					</div>
-				</div>
-				<div class="firstProject">
-					<div>
-						
-					</div>
-					<div>
-						
-					</div>
-				</div>
-				<div>
-					<div class="daily"></div>
-					<div class="carList"></div>
 				</div>
 			</div>
 		</div>
