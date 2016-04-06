@@ -6,7 +6,7 @@ button {
 	border: solid 1px;
 	outline: none;
 }
-.container div {
+#container div {
 	height: 50px;
 	min-width: 50px;
 	background-color: red;

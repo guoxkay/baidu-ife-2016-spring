@@ -32,6 +32,7 @@ var main = (function(){
 		},
 		displayQueue : function(){//显示队列
 			var container = document.getElementById("container");
+			for (var i = 0;i < container)
 			for (var i = 0;i < queue.length;i++){
 				var newNode = document.createElement("div");
 				container.appendChild(newNode);
@@ -54,8 +55,8 @@ var main = (function(){
 		}
 	}
 }())
-document.getElementById("leftInsert").addEventListener("click",function(){main.leftInsert(document.getElementById("aaa").value);event.preventDefault()});
-document.getElementById("rightInsert").addEventListener("click",function(){main.rightInsert(document.getElementById("aaa").value);event.preventDefault()});
+document.getElementById("leftInsert").addEventListener("click",function(){main.leftInsert(document.getElementById("aaa").value)});
+document.getElementById("rightInsert").addEventListener("click",function(){main.rightInsert(document.getElementById("aaa").value)});
 document.getElementById("leftDelete").addEventListener("click",main.leftDelete);
 document.getElementById("rightDelete").addEventListener("click",main.rightDelete);
 main.displayQueue();
