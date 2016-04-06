@@ -1,0 +1,19 @@
+input {
+	outline: none;
+}
+button {
+	background-color: #fff;
+	border: solid 1px;
+}
+.container div {
+	height: 50px;
+	min-width: 50px;
+	background-color: red;
+	color: #fff;
+	float: left;
+	margin: 10px;
+	font-family: "黑体";
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+}
