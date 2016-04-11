@@ -2,6 +2,7 @@ var Craft = function(plante,orbit){
 	//定义飞船燃料,飞船速度,围绕行星位置,飞船轨道,飞船位置
 	this.fuel = 100;
 	this.speed = 1;
+	this.angle = Math.PI * 3/2;
 	this.plante = plante;
 	this.orbit = orbit.no;
 	this.orbitRadius = orbit.radius; 
@@ -12,6 +13,8 @@ Craft.prototype = {
 	constructor : Craft,
 	//定义飞船运动函数
 	fly : function(){
+		var angelSpeed = (Math.PI/180)/orbit * speed;
+		angle = (angel + angelSpeed) - (angel - (angel % (Math.PI * 2)));
 		
 	}
 }
