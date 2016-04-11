@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#galaxy {
+	border: solid 1px #000;
+	height: 600px;
+	width: 700px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+#right {
+	height: 600px;
+	width: 500px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+}
+#console {
+	width: 500px;
+	height: 270px;
+	border: solid 1px #000;
+}
+#screen {
+	width: 500px;
+	height: 270px;
+	border: solid 1px #000;
+	margin-top: 60px;
+}
