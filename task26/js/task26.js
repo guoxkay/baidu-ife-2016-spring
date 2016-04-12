@@ -16,9 +16,11 @@ Craft.prototype = {
 	fly : function(){
 		var angelSpeed = (Math.PI/180)/orbit * speed;
 		angle = (angel + angelSpeed) - (angel - (angel % (Math.PI * 2)));
-		pos.y = -(Math.sin(angle) * orbitRadius);
-		pos.x = Math.cos(angle) * orbitRadius;
+		pos.y = -(Math.sin(angle) * orbitRadius) + plante.y;
+		pos.x = Math.cos(angle) * orbitRadius + plante.x;
 	},
 	//定义飞船自爆程序
-	
+	bomb : function(){
+		
+	}
 }
