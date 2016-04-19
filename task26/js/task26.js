@@ -18,9 +18,10 @@ Craft.prototype = {
 		angle = (angel + angelSpeed) - (angel - (angel % (Math.PI * 2)));
 		pos.y = -(Math.sin(angle) * orbitRadius) + plante.y;
 		pos.x = Math.cos(angle) * orbitRadius + plante.x;
-	},
-	//定义飞船自爆程序
-	bomb : function(){
-		
 	}
+}
+var command = {
+	//指挥系统
+	//丢包
+	
 }
